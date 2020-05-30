@@ -66,7 +66,7 @@ public class Control {
     }
 
     public String bearerToken() {
-        return "bearer "+accessToken;
+        return accessToken!=null?"bearer "+accessToken:null;
     }
 
     public String categoryTreeId() {

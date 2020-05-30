@@ -90,6 +90,7 @@ public class OptionsHandler {
 
 
     private void preValidate(CommandLine commandLine) {
+        if(commandLine.getOptionValue("o")==null) throw new OptionsValidationException("Please specify output directory using -o option");
         File file = new File(commandLine.getOptionValue("o"));
         if (!file.isDirectory()) {
             throw new OptionsValidationException(String.format("Specified directory %s does not exist", commandLine.getOptionValue("o")));
