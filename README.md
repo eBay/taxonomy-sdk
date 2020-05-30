@@ -1,4 +1,4 @@
-Taxonomy Metadata SDK 
+Taxonomy Metadata SDK  
 [![Build Status](https://travis-ci.org/eBay/taxonomy-sdk.svg?branch=master)](https://travis-ci.org/eBay/taxonomy-sdk)
 ==========
 A simple springboot CLI SDK that does a deep comparison of aspects metadata and reports changes in a structured manner. 
