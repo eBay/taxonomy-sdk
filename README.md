@@ -76,7 +76,7 @@ Compare downloaded file A and B and write output to directory Z:
 ```
 java -jar target/taxonomy-metadata-sdk-1.0.0-RELEASE.jar --previous_file={pathToFileA} --current_file={pathToFileB} --out={pathToOutputDirectory}
 ```
-Compare file A with the latest on the site using my client configurations for oauth and write output to directory Z: 
+Compare file A with the latest on the site using my client credentials for oauth and write output to directory Z: 
 ```
 java -jar target/taxonomy-metadata-sdk-1.0.0-RELEASE.jar --latest --previous_file={pathToFileA} --out={pathToOutputDirectory} --client_config_file={pathToClientCredentials}
 ```
@@ -84,7 +84,7 @@ Compare file A with the latest on the site using this valid client credentials o
 ```
 java -jar target/taxonomy-metadata-sdk-1.0.0-RELEASE.jar --latest --previous_file={pathToFileA} --out={pathToOutputDirectory} --token={token}
 ```
-Sample Credentials configurations:ebay-config.yaml(samples/ebay-config.yaml)
+Client Credentials Configuration Sample: [ebay-config.yaml](samples/ebay-config.yaml)
 
 ## Output 
 
