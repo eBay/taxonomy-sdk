@@ -84,6 +84,7 @@ Compare file A with the latest on the site using this valid client credentials o
 ```
 java -jar target/taxonomy-metadata-sdk-1.0.0-RELEASE.jar --latest --previous_file={pathToFileA} --out={pathToOutputDirectory} --token={token}
 ```
+Sample Credentials configurations:ebay-config.yaml(samples/ebay-config.yaml)
 
 ## Output 
 
