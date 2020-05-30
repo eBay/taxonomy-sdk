@@ -1,0 +1,92 @@
+{
+    "newCategories":[
+       {
+          "categoryId":"string",
+          "aspects":[
+             {
+                "localizedAspectName":"string",
+                "aspectConstraint":{
+                   "aspectApplicableTo":[
+                      "AspectApplicableToEnum : [ITEM,PRODUCT]"
+                   ],
+                   "aspectDataType":"AspectDataTypeEnum : [DATE,NUMBER,STRING...]",
+                   "aspectEnabledForVariations":"boolean",
+                   "aspectFormat":"string",
+                   "aspectMaxLength":"integer",
+                   "aspectMode":"AspectModeEnum : [FREE_TEXT,SELECTION_ONLY]",
+                   "aspectRequired":"boolean",
+                   "aspectUsage":"AspectUsageEnum : [RECOMMENDED,OPTIONAL]",
+                   "expectedRequiredByDate":"string",
+                   "itemToAspectCardinality":"ItemToAspectCardinalityEnum : [MULTI,SINGLE]"
+                },
+                "aspectValues":[
+                   {
+                      "localizedValue":"string"
+                   }
+                ]
+                
+             }
+          ]
+       }
+    ],
+    "removedCategories":["string"],
+    "modifiedCategories":[
+        {
+           "categoryId":"string",
+           "modifiedAspects":[
+              {
+                "localizedAspectName":"string", 
+                "modifiedConstraint":{
+                    "aspectApplicableTo":[
+                       "AspectApplicableToEnum : [ITEM,PRODUCT]"
+                    ],
+                    "aspectDataType":"AspectDataTypeEnum : [DATE,NUMBER,STRING...]",
+                    "aspectEnabledForVariations":"boolean",
+                    "aspectFormat":"string",
+                    "aspectMaxLength":"integer",
+                    "aspectMode":"AspectModeEnum : [FREE_TEXT,SELECTION_ONLY]",
+                    "aspectRequired":"boolean",
+                    "aspectUsage":"AspectUsageEnum : [RECOMMENDED,OPTIONAL]",
+                    "expectedRequiredByDate":"string",
+                    "itemToAspectCardinality":"ItemToAspectCardinalityEnum : [MULTI,SINGLE]"
+                 },
+                 "newAspectValues":[
+                    "string"
+                 ],
+                 "removedAspectValues":[
+                    "string"
+                 ]
+                 
+              }
+           ],
+           "removedAspects":["string"],
+           "newAspects": [
+            {
+                "localizedAspectName":"string",
+                "aspectConstraint":{
+                   "aspectApplicableTo":[
+                      "AspectApplicableToEnum : [ITEM,PRODUCT]"
+                   ],
+                   "aspectDataType":"AspectDataTypeEnum : [DATE,NUMBER,STRING...]",
+                   "aspectEnabledForVariations":"boolean",
+                   "aspectFormat":"string",
+                   "aspectMaxLength":"integer",
+                   "aspectMode":"AspectModeEnum : [FREE_TEXT,SELECTION_ONLY]",
+                   "aspectRequired":"boolean",
+                   "aspectUsage":"AspectUsageEnum : [RECOMMENDED,OPTIONAL]",
+                   "expectedRequiredByDate":"string",
+                   "itemToAspectCardinality":"ItemToAspectCardinalityEnum : [MULTI,SINGLE]"
+                },
+                "aspectValues":[
+                   {
+                      "localizedValue":"string"
+                   }
+                ]
+                
+             }
+
+           ]
+        }
+     ]
+
+ }

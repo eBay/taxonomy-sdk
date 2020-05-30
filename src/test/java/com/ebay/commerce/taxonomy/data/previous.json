@@ -1,0 +1,777 @@
+{
+  "categoryTreeId": "0",
+  "categoryTreeVersion": "121",
+  "categoryAspects": [{
+    "category": {
+      "categoryId": "852",
+      "categoryName": "Fountain"
+    },
+    "aspects": [{
+      "localizedAspectName": "Brand",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false
+      },
+      "aspectValues": [
+
+      ]
+    },
+      {
+        "localizedAspectName": "Type of Advertising",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "FREE_TEXT",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": false
+        },
+        "aspectValues": [{
+          "localizedValue": "Sign",
+          "valueConstraints": [
+
+          ]
+        },
+          {
+            "localizedValue": "Sticker",
+            "valueConstraints": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "localizedAspectName": "Date of Creation",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "FREE_TEXT",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": false
+        },
+        "aspectValues": [
+
+        ]
+      },
+      {
+        "localizedAspectName": "Color",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "FREE_TEXT",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": true
+        },
+        "aspectValues": [{
+          "localizedValue": "Beige",
+          "valueConstraints": [
+
+          ]
+        },
+          {
+            "localizedValue": "Black",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Blue",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Brown",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Gold",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Gray",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Green",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Ivory",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Multi-color",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Orange",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Pink",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Purple",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Red",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Silver",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "White",
+            "valueConstraints": [
+
+            ]
+          },
+          {
+            "localizedValue": "Yellow",
+            "valueConstraints": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "localizedAspectName": "Original/Reproduction",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "FREE_TEXT",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": false
+        },
+        "aspectValues": [{
+          "localizedValue": "Original",
+          "valueConstraints": [
+
+          ]
+        },
+          {
+            "localizedValue": "Reproduction",
+            "valueConstraints": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "localizedAspectName": "Modified Item",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "SELECTION_ONLY",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": false,
+          "aspectApplicableTo": [
+            "ITEM"
+          ]
+        },
+        "aspectValues": [{
+          "localizedValue": "No",
+          "valueConstraints": [
+
+          ]
+        },
+          {
+            "localizedValue": "Yes",
+            "valueConstraints": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "localizedAspectName": "Modification Description",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "FREE_TEXT",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": false,
+          "aspectMaxLength": 200,
+          "aspectApplicableTo": [
+            "ITEM"
+          ]
+        },
+        "aspectValues": [
+
+        ]
+      },
+      {
+        "localizedAspectName": "California Prop 65 Warning",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "FREE_TEXT",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": false,
+          "aspectMaxLength": 800,
+          "aspectApplicableTo": [
+            "ITEM"
+          ]
+        },
+        "aspectValues": [
+
+        ]
+      }
+    ]
+  },
+    {
+      "category": {
+        "categoryId": "853",
+        "categoryName": "Canada Dry"
+      },
+      "aspects": [{
+        "localizedAspectName": "Brand",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "FREE_TEXT",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": false
+        },
+        "aspectValues": [
+
+        ]
+      },
+        {
+          "localizedAspectName": "Type of Advertising",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false
+          },
+          "aspectValues": [{
+            "localizedValue": "Sign",
+            "valueConstraints": [
+
+            ]
+          },
+            {
+              "localizedValue": "Sticker",
+              "valueConstraints": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "localizedAspectName": "Date of Creation",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false
+          },
+          "aspectValues": [
+
+          ]
+        },
+        {
+          "localizedAspectName": "Color",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": true
+          },
+          "aspectValues": [{
+            "localizedValue": "Beige",
+            "valueConstraints": [
+
+            ]
+          },
+            {
+              "localizedValue": "Black",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Blue",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Brown",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Gold",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Gray",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Green",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Ivory",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Multi-color",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Orange",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Pink",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Purple",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Red",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Silver",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "White",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Yellow",
+              "valueConstraints": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "localizedAspectName": "Original/Reproduction",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false
+          },
+          "aspectValues": [{
+            "localizedValue": "Original",
+            "valueConstraints": [
+
+            ]
+          },
+            {
+              "localizedValue": "Reproduction",
+              "valueConstraints": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "localizedAspectName": "Modified Item",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "SELECTION_ONLY",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false,
+            "aspectApplicableTo": [
+              "ITEM"
+            ]
+          },
+          "aspectValues": [{
+            "localizedValue": "No",
+            "valueConstraints": [
+
+            ]
+          },
+            {
+              "localizedValue": "Yes",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "May be",
+              "valueConstraints": [
+
+              ]
+            }
+
+          ]
+        },
+        {
+          "localizedAspectName": "Modification Description",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false,
+            "aspectMaxLength": 200,
+            "aspectApplicableTo": [
+              "ITEM"
+            ]
+          },
+          "aspectValues": [
+
+          ]
+        },
+
+        {
+          "localizedAspectName": "California Prop 65 Warning",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false,
+            "aspectMaxLength": 800,
+            "aspectApplicableTo": [
+              "ITEM"
+            ]
+          },
+          "aspectValues": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "category": {
+        "categoryId": "10000",
+        "categoryName": "Canada Dry"
+      },
+      "aspects": [{
+        "localizedAspectName": "Brand",
+        "aspectConstraint": {
+          "aspectDataType": "STRING",
+          "itemToAspectCardinality": "SINGLE",
+          "aspectMode": "FREE_TEXT",
+          "aspectRequired": false,
+          "aspectUsage": "OPTIONAL",
+          "aspectEnabledForVariations": false
+        },
+        "aspectValues": [
+
+        ]
+      },
+        {
+          "localizedAspectName": "Type of Advertising",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false
+          },
+          "aspectValues": [{
+            "localizedValue": "Sign",
+            "valueConstraints": [
+
+            ]
+          },
+            {
+              "localizedValue": "Sticker",
+              "valueConstraints": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "localizedAspectName": "Date of Creation",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false
+          },
+          "aspectValues": [
+
+          ]
+        },
+        {
+          "localizedAspectName": "Color",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": true
+          },
+          "aspectValues": [{
+            "localizedValue": "Beige",
+            "valueConstraints": [
+
+            ]
+          },
+            {
+              "localizedValue": "Black",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Blue",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Brown",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Gold",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Gray",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Green",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Ivory",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Multi-color",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Orange",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Pink",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Purple",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Red",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Silver",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "White",
+              "valueConstraints": [
+
+              ]
+            },
+            {
+              "localizedValue": "Yellow",
+              "valueConstraints": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "localizedAspectName": "Original/Reproduction",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false
+          },
+          "aspectValues": [{
+            "localizedValue": "Original",
+            "valueConstraints": [
+
+            ]
+          },
+            {
+              "localizedValue": "Reproduction",
+              "valueConstraints": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "localizedAspectName": "Modified Item",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "SELECTION_ONLY",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false,
+            "aspectApplicableTo": [
+              "ITEM"
+            ]
+          },
+          "aspectValues": [{
+            "localizedValue": "No",
+            "valueConstraints": [
+
+            ]
+          },
+            {
+              "localizedValue": "Yes",
+              "valueConstraints": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "localizedAspectName": "Modification Description",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false,
+            "aspectMaxLength": 200,
+            "aspectApplicableTo": [
+              "ITEM"
+            ]
+          },
+          "aspectValues": [
+
+          ]
+        },
+
+        {
+          "localizedAspectName": "California Prop 65 Warning",
+          "aspectConstraint": {
+            "aspectDataType": "STRING",
+            "itemToAspectCardinality": "SINGLE",
+            "aspectMode": "FREE_TEXT",
+            "aspectRequired": false,
+            "aspectUsage": "OPTIONAL",
+            "aspectEnabledForVariations": false,
+            "aspectMaxLength": 800,
+            "aspectApplicableTo": [
+              "ITEM"
+            ]
+          },
+          "aspectValues": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}
+
