@@ -1,6 +1,6 @@
 name: ebay-config
 
-# UPDATE the values in this file, before running the CLI. Required only for --latest option
+# UPDATE the values in this file for the appropriate environment before running the CLI. Required only for --latest option
 api.sandbox.ebay.com:
     appid: <appid-from-developer-portal>
     certid: <certid-from-developer-portal>
