@@ -75,6 +75,7 @@ public class DataLoader {
             responseMap = loadDataFromInStream(inputStream);
             logger.info(String.format("Categories loaded for category_tree_id %s is %s", categoryTreeId, responseMap.keySet().size()));
         } catch (IOException ex) {
+            ex.printStackTrace();
             throw new DownloadException(String.format("Exception while downloading category treeId %s on %s", categoryTreeId,environment.name()));
         }
         return CompletableFuture.completedFuture(responseMap);
