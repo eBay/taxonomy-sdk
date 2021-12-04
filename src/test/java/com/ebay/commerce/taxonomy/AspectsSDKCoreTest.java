@@ -28,7 +28,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.unitils.reflectionassert.ReflectionAssert;
-import org.unitils.reflectionassert.ReflectionComparatorMode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,14 +48,14 @@ public class AspectsSDKCoreTest {
     public void testAspectsDelta() {
         BulkAspectResponse previousFileData = dataProvider.getBulkAspectMockedData(true);
         BulkAspectResponse currentFileData = dataProvider.getBulkAspectMockedData();
-        AspectsDelta actualDelta = aspectDeltaProcessor.process(getIndexedData(previousFileData),getIndexedData(currentFileData));
+        AspectsDelta actualDelta = aspectDeltaProcessor.process(getIndexedData(previousFileData), getIndexedData(currentFileData));
         AspectsDelta expectedDelta = dataProvider.getExpectedResult();
-        ReflectionAssert.assertReflectionEquals(expectedDelta,actualDelta, ReflectionComparatorMode.IGNORE_DEFAULTS);
+        ReflectionAssert.assertLenientEquals(expectedDelta, actualDelta);
 
     }
 
     private Map<String, List<Aspect>> getIndexedData(BulkAspectResponse bulkAspectResponse) {
         return bulkAspectResponse.getCategoryAspects().stream().
-                collect(Collectors.toMap(c -> c.getCategory().getCategoryId(), c -> c.getAspects() != null ? c.getAspects() : new ArrayList<Aspect>()));
+                collect(Collectors.toMap(c -> c.getCategory().getCategoryId(), c -> c.getAspects() != null ? c.getAspects() : new ArrayList<>()));
     }
 }
