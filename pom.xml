@@ -80,7 +80,7 @@
         <dependency>
             <groupId>com.ebay.auth</groupId>
             <artifactId>ebay-oauth-java-client</artifactId>
-            <version>1.1.0</version>
+            <version>1.1.8</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
